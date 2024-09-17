@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.wrapper{
+    margin: 60px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.logo{
+    width: 68px;
+    height: 52px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: hidden;
+    margin-bottom: 100px;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.navi{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.nahi:hover{
+    color: #4E5DC0;
+    border-bottom: 1.5px solid #4E5DC0;
+    padding-bottom: 4px;
+}
+button{
+    background-color: #4E5DC0;
+    height: 44px;
+    width: 140px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+
+
+button:hover{
+    cursor: pointer;
+}
+.heading1{
+    display: inline-block;
+    margin-bottom: 50px;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    margin-bottom: 150px;
+    
+}
+.container2{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    margin-bottom: 100px;
+}
+.love1{
+    width: 410px;
+    height: 370px;
+    border: 0px;
+    border-radius: 25px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+h3{
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #4E5DC0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+
+
+h3:hover{
+    border-bottom: 1px solid #4E5DC0 ;
+    cursor: pointer;
+}
+p{
+    font-weight: 500;
+}
+.redirect{
+    margin-bottom: 10px;
+}
+.redirect:hover{
+    color: #4E5DC0;
+    cursor: pointer;
+}
